@@ -1,0 +1,48 @@
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li a{
+    height: 20rem;
+    width: 20rem;
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: brown;
+
+}
+li a:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.content{
+    padding: .5rem 1rem;
+}
+
+.origins{
+    flex:9;
+}
+.origins span{
+    border-radius: 2rem;
+    background-color: whitesmoke;
+    color: gray;
+    font-size: .8rem;
+    margin-right: .3rem;
+}
+
+.cooktime{
+    font-size: .8rem;
+    flex:3;
+    text-align: center;
+}
+
+
